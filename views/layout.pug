@@ -18,34 +18,39 @@ html
 					#bs-example-navbar-collapse-1.collapse.navbar-center.navbar-collapse
 						ul.nav.navbar-nav
 							li.active
-								a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index.html') Home
+								a(href='/') Inicio
+							li
+								a(href='/clasificados') Clasificados
 							li.dropdown
-								a.dropdown-toggle(href='#', data-toggle='dropdown') Pages
+								a.dropdown-toggle(href='#', data-toggle='dropdown') Quienes somos
 								ul.dropdown-menu
 									li
-										a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index_fixed.html') Home / Fixed
+										a(href='/about/objetivos') Objetivos
 									li
-										a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index_with_blog.html') Home + Blog
+										a(href='/about/objetivos') Misión
 									li
-										a(href='portfolio.html') Portfolio
+										a(href='/about/objetivos') Nuestro estatuto
 									li
-										a(href='typography.html') Typography
+										a(href='/about/boletines') Boletines institucionales
 									li
-										a(href='shortcodes.html') Shortcodes
+										a(href='/about/boletines') Articulos varios
+							li.dropdown
+								a.dropdown-toggle(href='#', data-toggle='dropdown') Institución
+								ul.dropdown-menu
 									li
-										a(href='blog.html') Blog & News
+										a(href='/institucion/organigrama') Organigrama
 									li
-										a(href='tables.html') Tables
+										a(href='/institucion/galeria-de-presidentes') Galería de Presidentes
 									li
-										a(href='faq.html') FAQ
+										a(href='/institucion/direccion-actual') Dirección actual
+									li
+										a(href='/institucion/asociaciones-afiliadas') Asociaciones afiliadas
+									li
+										a(href='/institucion/alianzas') Alianzas
 							li
-								a(href='left_sidebar.html') left sidebar
+								a(href='/clasificados') Servicios
 							li
-								a(href='right_sidebar.html') right sidebar
-							li
-								a(href='full_width.html') full page
-							li
-								a(href='contact.html') contact us
+								a(href='/clasificados') Webmail
 					.clr
 					.navbar-header
 						button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
@@ -55,8 +60,8 @@ html
 							span.icon-bar
 						h1.navbar-brand
 							a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index.html')
-								span Agricu
-								| lture
+								span Fede
+								| ple
 		block content
 		footer
 			.container
@@ -64,42 +69,30 @@ html
 					.col-md-3
 						h3 About
 						p
-							| We strive to deliver a level of service that exceeds the expectations of our customers. 
+							| FEDEPLE. 
 							br
 							br
-							|           If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.
+							| If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.
 					.col-md-3
-						h3 Tweets
-						p
-							span Tweet
-							a(href='#') @You
-							br
-							|           Etiam egestas, ipsum posuere accumsan sollicitudin, nulla mauris volutpat sem, sit amet rutrum risus.
-						p
-							span Tweet
-							a(href='#') @You
-							br
-							|           Quisque porta tellus vitae adipiscing molestie. Mauris et lacus blandit, malesuada.
-					.col-md-3
-						h3 Mailing list
-						p Subscribe to our mailing list for offers, news updates and more!
+						h3 Mail
+						p Subscríbite para recibir las últimas noticias
 						br
 						form.form-inline(action='#', method='post', role='form')
 							.form-group
-								label.sr-only(for='exampleInputEmail2') your email:
+								label.sr-only(for='exampleInputEmail2') su email:
 								input#exampleInputEmail2.form-control(type='email', placeholder='your email:')
-							button.btn.btn-primary(type='submit') subscribe
+							button.btn.btn-primary(type='submit') subscribirse
 					.col-md-3
-						h3 Social
+						h3 Dirección
 						p
-							| 123 Business Way
+							| 123 Avenida Mayo
 							br
-							|           San Francisco, CA 94108
+							|           Santa Cruz de la Sierra
 							br
-							|           USA
+							|           Bolivia
 							br
 							br
-							|           Phone: (888) 123-4567
+							|           Teléfono: (888) 123-4567
 							br
 							|           Fax: (887) 123-4567
 							br
@@ -109,7 +102,7 @@ html
 							a.socialicon.socialicon-facebook(href='#')
 							a.socialicon.socialicon-google(href='#')
 			.copy
-				p.text-center © Copyright ABC Company. All Rights Reserved.
+				p.text-center © Copyright Lolpez. All Rights Reserved.
 		script(src='/js/jquery.min.js')
 		script(src='/js/bootstrap.min.js')
 		script.

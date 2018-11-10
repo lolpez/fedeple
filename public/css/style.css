@@ -16,7 +16,7 @@ body {
 
 /*Typography*/
 a {
-	color: #ffcd55;
+	color: #5fc52d;
 }
 hr {
 	border-color: #c8c8c8;
@@ -45,7 +45,7 @@ h3 a {
 }
 h3 a:hover {
 	text-decoration: none;
-	color: #ffcd55;
+	color: #5fc52d;
 }
 .typo {
 	margin-top: 80px;
@@ -127,14 +127,14 @@ p.big-paragraph {
 	font-weight: 300;
 }
 .grey-info-block .btn.btn-default {
-	color: #ffcd55;
+	color: #5fc52d;
 	border-color: #fff;
 	background-color: #fff;
 }
 .grey-info-block .btn.btn-info {
 	color: #fff;
 	border-color: #fff;
-	background-color: #ffcd55;
+	background-color: #5fc52d;
 	text-transform: uppercase;
 }
 /* Recent Posts */
@@ -199,7 +199,7 @@ p.big-paragraph {
 	box-shadow: none;
 }
 .form-control:focus {
-	border-color: #ffcd55;
+	border-color: #5fc52d;
 }
 /*Main Navigaion Menu*/
 .dropdown:hover .dropdown-menu {
@@ -212,7 +212,7 @@ p.big-paragraph {
 	margin-bottom: 0px;
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-	color: #ffcd55;
+	color: #5fc52d;
 	font-size: 36px;
 	text-transform: uppercase;
 	background: #fff;
@@ -225,7 +225,7 @@ p.big-paragraph {
 	margin-top: 60px;
 }
 .navbar-default .navbar-brand a {
-	color: #ffcd55;
+	color: #5fc52d;
 	text-decoration: none;
 }
 span {
@@ -276,7 +276,7 @@ ul.dropdown-menu>li>a {
 	text-transform: uppercase;
 }
 ul.dropdown-menu>li>a:hover {
-	color: #ffcd55;
+	color: #5fc52d;
 	text-decoration: underline;
 	background: #fff;
 }
@@ -301,8 +301,8 @@ ul.dropdown-menu>li>a:hover {
 	text-transform: none;
 }
 .btn-primary:hover {
-	background-color: #ffcd55;
-	border-color: #ffcd55;
+	background-color: #5fc52d;
+	border-color: #5fc52d;
 	font-size: 14px;
 	font-weight: bold;
 	outline: none;
@@ -330,8 +330,8 @@ ul.dropdown-menu>li>a:hover {
 	font-size: 14px;
 }
 footer .btn-primary, footer .btn-primary:focus, footer .btn-primary:active {
-	background-color: #ffcd55;
-	border-color: #ffcd55;
+	background-color: #5fc52d;
+	border-color: #5fc52d;
 	color: #444c4c;
 }
 footer .btn-primary:hover {
@@ -402,7 +402,7 @@ button.btn-primary:focus {
 	-moz-border-radius: 4px;
 	-ms-border-radius: 4px;
 	-o-border-radius: 4px;
-	background-color: #ffcd55;
+	background-color: #5fc52d;
 }
 .carousel-control {
 	background: none;
@@ -465,7 +465,7 @@ button.btn-primary:focus {
 	margin-bottom: 0px;
 }
 .orange {
-	color: #ffcd55;
+	color: #5fc52d;
 	padding: 0 0 10px 0;
 }
 .black-text {
@@ -711,7 +711,7 @@ button.navbar-toggle {
 	margin-bottom: 0px;
 }
 .service-icons p.orange {
-	color: #ffcd55;
+	color: #5fc52d;
 	padding: 0 0 10px 0;
 }
 .recent-posts .col-md-8 .text {
@@ -804,7 +804,7 @@ button.navbar-toggle {
 	padding: 0px 0 20px 2px;
 	overflow: hidden;
 	margin: 20px 0;
-	border-bottom: #FFCD55 solid 2px;
+	border-bottom: #5fc52d solid 2px;
 }
 #portfolio ul.controls li {
 	float: left;
@@ -818,7 +818,7 @@ button.navbar-toggle {
 	padding: 4px 15px;
 	color: #333;
 	margin: 0 -1px;
-	border: 1px solid #FFCD55;
+	border: 1px solid #5fc52d;
 }
 #portfolio ul#Grid {
 	margin: 0 0 30px 0;
@@ -874,10 +874,10 @@ button.navbar-toggle {
 	bottom: 0;
 	color: #333;
 	line-height: 30px;
-	background: #FFCD55;
+	background: #5fc52d;
 }
 #portfolio ul#Grid li:hover span.text {
-	background: #FFCD55;
+	background: #5fc52d;
 	opacity: 0.9;
 }
 #portfolio ul#Grid span.text span {
@@ -890,13 +890,13 @@ button.navbar-toggle {
 }
 #portfolio ul#Grid span.text:after {
 	border-color: rgba(63, 141, 191, 0);
-	border-bottom-color: #FFCD55;
+	border-bottom-color: #5fc52d;
 	border-width: 10px;
 	margin-left: -10px;
 }
 #portfolio ul#Grid span.text:before {
 	border-color: rgba(63, 141, 191, 0);
-	border-bottom-color: #FFCD55;
+	border-bottom-color: #5fc52d;
 	border-width: 16px;
 	margin-left: -16px;
 }
