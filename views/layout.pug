@@ -1,7 +1,119 @@
 doctype html
 html
 	head
-		title= title
-		link(rel='stylesheet', href='/css/style.css')
+		title=title
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(href='/css/bootstrap.min.css', rel='stylesheet')
+		link(href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,100', rel='stylesheet', type='text/css')
+		link(href='/css/style.css', rel='stylesheet')
+		// HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+		// WARNING: Respond.js doesn't work if you view the page via file://
+		//if lt IE 9
+			script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+			script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
 	body
+		header.main__header
+			.container
+				nav.navbar.navbar-default(role='navigation')
+					#bs-example-navbar-collapse-1.collapse.navbar-center.navbar-collapse
+						ul.nav.navbar-nav
+							li.active
+								a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index.html') Home
+							li.dropdown
+								a.dropdown-toggle(href='#', data-toggle='dropdown') Pages
+								ul.dropdown-menu
+									li
+										a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index_fixed.html') Home / Fixed
+									li
+										a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index_with_blog.html') Home + Blog
+									li
+										a(href='portfolio.html') Portfolio
+									li
+										a(href='typography.html') Typography
+									li
+										a(href='shortcodes.html') Shortcodes
+									li
+										a(href='blog.html') Blog & News
+									li
+										a(href='tables.html') Tables
+									li
+										a(href='faq.html') FAQ
+							li
+								a(href='left_sidebar.html') left sidebar
+							li
+								a(href='right_sidebar.html') right sidebar
+							li
+								a(href='full_width.html') full page
+							li
+								a(href='contact.html') contact us
+					.clr
+					.navbar-header
+						button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+							span.sr-only Toggle navigation
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						h1.navbar-brand
+							a(href='http://www.htmlpreviews.com/cloud/agriculture/theparallex4/index.html')
+								span Agricu
+								| lture
 		block content
+		footer
+			.container
+				.row
+					.col-md-3
+						h3 About
+						p
+							| We strive to deliver a level of service that exceeds the expectations of our customers. 
+							br
+							br
+							|           If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.
+					.col-md-3
+						h3 Tweets
+						p
+							span Tweet
+							a(href='#') @You
+							br
+							|           Etiam egestas, ipsum posuere accumsan sollicitudin, nulla mauris volutpat sem, sit amet rutrum risus.
+						p
+							span Tweet
+							a(href='#') @You
+							br
+							|           Quisque porta tellus vitae adipiscing molestie. Mauris et lacus blandit, malesuada.
+					.col-md-3
+						h3 Mailing list
+						p Subscribe to our mailing list for offers, news updates and more!
+						br
+						form.form-inline(action='#', method='post', role='form')
+							.form-group
+								label.sr-only(for='exampleInputEmail2') your email:
+								input#exampleInputEmail2.form-control(type='email', placeholder='your email:')
+							button.btn.btn-primary(type='submit') subscribe
+					.col-md-3
+						h3 Social
+						p
+							| 123 Business Way
+							br
+							|           San Francisco, CA 94108
+							br
+							|           USA
+							br
+							br
+							|           Phone: (888) 123-4567
+							br
+							|           Fax: (887) 123-4567
+							br
+							br
+						.social__icons
+							a.socialicon.socialicon-twitter(href='#')
+							a.socialicon.socialicon-facebook(href='#')
+							a.socialicon.socialicon-google(href='#')
+			.copy
+				p.text-center © Copyright ABC Company. All Rights Reserved.
+		script(src='/js/jquery.min.js')
+		script(src='/js/bootstrap.min.js')
+		script.
+			$('.carousel').carousel({
+				interval: 3500, // in milliseconds
+				pause: 'none' // set to 'true' to pause slider on mouse hover
+			})
